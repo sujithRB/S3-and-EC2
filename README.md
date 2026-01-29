@@ -1,6 +1,7 @@
 # CLOUD-STORAGE-CREATION-S3-AND-LAUNCHING-AN-EC2-INSTANCE-IN-AWS-
-# Name:D DEVIKA
-# register number:212224100010
+# Name: SUJITH RB
+# register number:212224103003
+
 # AIM :
 To create an AWS account, set up a root user, and create an IAM user with specified permissions.
 
