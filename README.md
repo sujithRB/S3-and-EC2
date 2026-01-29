@@ -1,19 +1,20 @@
 # CLOUD-STORAGE-CREATION-S3-AND-LAUNCHING-AN-EC2-INSTANCE-IN-AWS-
+# Name:D DEVIKA
+# register number:212224100010
+# AIM :
+To create an AWS account, set up a root user, and create an IAM user with specified permissions.
 
-## NAME: ANDREW VARGHESE V.S
-## REG NO: 212222100032
+# PROBLEM STATEMENT :
+This experiment involves creating an AWS account, configuring security settings for the root user, and setting up an IAM user. IAM users allow for secure, managed access to AWS resources without exposing the main account's root credentials.
 
-# Aim:
-To create a Simple Storage Service (S3) in AWS and to launch an EC2 instance in AWS.
-
-# Procedure
+# Procedure:
 a) Steps to Create a first S3 Bucket:
 
-Step 1: Sign in to the AWS Management Console Go to https://console.aws.amazon.com/s3. 
+Step 1: Sign in to the AWS Management Console Go to https://console.aws.amazon.com/s3.
 
-Step 2: Open the S3 Service In the console, type S3 in the search bar and select S3 to open the service dashboard. 
+Step 2: Open the S3 Service In the console, type S3 in the search bar and select S3 to open the service dashboard.
 
-Step 3: Create Bucket Click the Create bucket button. 
+Step 3: Create Bucket Click the Create bucket button.
 
 Step 4: Configure Bucket Settings
 
@@ -21,13 +22,13 @@ Step 4: Configure Bucket Settings
 
 Step 5: Object Ownership Choose between: ▪ ACLs disabled (recommended) – Bucket owner has full control. ▪ ACLs enabled – Control access via access control lists.
 
-Step 6: Block Public Access Settings By default, all public access is blocked. Leave it as-is unless you need public access. 
+Step 6: Block Public Access Settings By default, all public access is blocked. Leave it as-is unless you need public access.
 
 Step 7: Bucket Versioning (optional) Choose whether to enable versioning for objects in the bucket.
 
-Step 8: Encryption (optional) Select encryption options (SSE-S3, SSE-KMS, or none). 
+Step 8: Encryption (optional) Select encryption options (SSE-S3, SSE-KMS, or none).
 
-Step 9: Advanced Settings (optional) Add tags, configure logging, etc. 
+Step 9: Advanced Settings (optional) Add tags, configure logging, etc.
 
 Step 10: Create the Bucket Click Create bucket at the bottom of the page.
 
@@ -57,24 +58,15 @@ c) Step 3: Connect to Your Instance
 
 d) Steps to Clean Up (Terminate the Instance)
 
-Go to EC2 Instances.
-Select your instance → Instance State → Terminate.
+Go to EC2 Instances. Select your instance → Instance State → Terminate
 
 # Output:
 
-Simple Storage Service:
-<img width="666" height="517" alt="Screenshot 2025-09-03 161410" src="https://github.com/user-attachments/assets/640d1f32-8402-426e-a205-7a43ea57cea2" />
-<img width="1920" height="288" alt="Screenshot 2025-09-03 212120" src="https://github.com/user-attachments/assets/cd39b36f-2b0e-44cf-b886-a6e708916f64" />
-<img width="1920" height="258" alt="Screenshot 2025-09-03 160310" src="https://github.com/user-attachments/assets/0a999b7e-c519-4ea5-b0f7-242ff4b24d74" />
+ <img width="1919" height="1078" alt="Screenshot 2025-10-10 142104" src="https://github.com/user-attachments/assets/a9c27dfa-b7ac-425f-ac76-68acb8fe51f5" />
 
+<img width="1920" height="1080" alt="Screenshot (276)" src="https://github.com/user-attachments/assets/bab2db9e-671c-4df9-8566-f62d8cfd7524" />
 
-EC2(Elastic Cloud Compute)
-![image](https://github.com/user-attachments/assets/36c30ac3-212a-4875-8f54-94360cd25c65)
+<img width="1920" height="1080" alt="Screenshot (277)" src="https://github.com/user-attachments/assets/2ff55ffb-c2b5-4726-a667-28f23d7844cd" />
 
-
-
-
-
-
-# Result:
-Thus, a Simple Storage Service (S3) and EC2 (Elastic Compute Cloud) - instance has been successfully created and launched in AWS
+# RESULT:
+The AWS account was successfully created, with set up for the root user . Additionally, an IAM user was created with specified permissions, allowing for secure, controlled access to AWS resources without the use of the root account.
